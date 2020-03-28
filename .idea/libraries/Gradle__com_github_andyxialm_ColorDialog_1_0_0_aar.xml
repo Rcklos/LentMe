@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.andyxialm:ColorDialog:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a66b51b12f1e5d5fa4adbb0ec5b6a29/jetified-ColorDialog-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a66b51b12f1e5d5fa4adbb0ec5b6a29/jetified-ColorDialog-1.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

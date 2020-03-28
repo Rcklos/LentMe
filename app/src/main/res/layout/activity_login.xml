@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/DarkPrimaryColor"
+    android:elevation="1dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/login_background">
+
+                <!-- 这里可以布置视频效果 -->
+
+                <!-- 让背景暗淡   -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"
+                    android:alpha="0.5"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="请输入手机号码"-->
+<!--                        android:elevation="?attr/ElevationOfMaterial"-->
+<!--                        android:textSize="18sp"-->
+<!--                        android:textColor="?attr/TextPrimaryColor"/>-->
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="4dp"
+                        android:background="#00000000" />
+
+                    <EditText
+                        android:id="@+id/login_edit_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="16dp"
+                        android:hint="请输入手机号码"
+                        android:gravity="center"
+                        android:background="@drawable/edit_corner_shape"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:alpha="0.8"
+                        android:textSize="18sp"
+                        android:textColor="?attr/TextPrimaryColor" />
+
+
+                    <Button
+                        android:id="@+id/login_btn_login"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:background="@drawable/button_blue_selector"
+                        android:elevation="8dp"
+                        android:padding="8dp"
+                        android:text="登录"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/login_btn_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="24dp"
+                    android:background="#00000000"
+                    android:textSize="14sp"
+                    android:textColor="#9E9E9E"
+                    android:text="注册新账号" />
+
+            </RelativeLayout>
+
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </RelativeLayout>
+
+</LinearLayout>

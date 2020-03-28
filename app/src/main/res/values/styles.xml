@@ -1,0 +1,83 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowContentTransitions">true</item>
+        <item name="colorAppBackground">#C2BDBD</item>
+        <item name="bg_main_activity">@drawable/bg_main_light</item>
+        <item name="bg_main_activity_color">#0288D1</item>
+        <item name="colorMainButton">#FFFFFF</item>
+        <item name="colorButtonText">#212121</item>
+        <item name="colorTitleBar">#03A9F4</item>
+        <item name="colorChatBackground">#03A9F4</item>
+        <item name="colorEditBar">#FFFFFF</item>
+        <item name="colorEditText">#D1CACA</item>
+        <item name="btnTextSize">14sp</item>
+        <item name="btnTextColor">#FFFFFF</item>
+    </style>
+
+    <style name="DarkPalette" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowContentTransitions">true</item>
+        <item name="DarkPrimaryColor">#0D47A1</item>
+        <item name="LightPrimaryColor">#BBDEFB</item>
+        <item name="PrimaryColor">#2196F3</item>
+        <item name="IconPrimaryColor">#FFFFFF</item>
+        <item name="AccentPrimaryColor">#03A9F4</item>
+        <item name="TextPrimaryColor">#212121</item>
+        <item name="SecondaryTextColor">#757575</item>
+        <item name="DividerPrimaryColor">#BDBDBD</item>
+
+        <item name="ElevationOfMaterial">2dp</item>
+        <item name="ElevationOfMaterialPress">1dp</item>
+        <item name="ElevationOfButton">8dp</item>
+        <item name="ElevationOfButtonPress">2dp</item>
+        <item name="ElevationOfBottomBar">8dp</item>
+        <item name="ElevationOfTopBar">4dp</item>
+        <item name="ElevationOfNavigation">16dp</item>
+        <item name="ElevationOfDialog">24dp</item>
+        <item name="ElevationOfEume">8dp</item>
+    </style>
+
+    <style name="LocatePalette" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="DarkPrimaryColor">#0A0A0A</item>
+        <item name="LightPrimaryColor">#808372</item>
+        <item name="PrimaryColor">#404237</item>
+        <item name="IconPrimaryColor">#FFFFFF</item>
+        <item name="AccentPrimaryColor">#FFFFFF</item>
+        <item name="TextPrimaryColor">#DEDFDA</item>
+        <item name="SecondaryTextColor">#DEDFDA</item>
+        <item name="DividerPrimaryColor">#C4C5BA</item>
+
+        <item name="ElevationOfMaterial">2dp</item>
+        <item name="ElevationOfMaterialPress">1dp</item>
+        <item name="ElevationOfButton">8dp</item>
+        <item name="ElevationOfButtonPress">2dp</item>
+        <item name="ElevationOfBottomBar">8dp</item>
+        <item name="ElevationOfTopBar">4dp</item>
+        <item name="ElevationOfNavigation">16dp</item>
+        <item name="ElevationOfDialog">24dp</item>
+        <item name="ElevationOfEume">8dp</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@drawable/login_background</item>
+    </style>
+
+
+
+</resources>

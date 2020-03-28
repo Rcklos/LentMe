@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorAppBackground" format="color"/>
+    <attr name="colorMainButton" format="color"/>
+    <attr name="colorButtonText" format="color"/>
+    <attr name="bg_main_activity" format="reference"/>
+    <attr name="bg_main_activity_color" format="color"/>
+    <attr name="colorTitleBar" format="color"/>
+    <attr name="colorChatBackground" format="color"/>
+    <attr name="colorEditBar" format="color"/>
+    <attr name="colorEditText" format="color"/>
+    <attr name="btnTextSize" format="dimension"/>
+    <attr name="btnTextColor" format="color"/>
+    <!-- primaryColor                        -->
+    <attr name="DarkPrimaryColor" format="color"/>
+    <attr name="LightPrimaryColor" format="color"/>
+    <attr name="PrimaryColor" format="color"/>
+    <attr name="IconPrimaryColor" format="color"/>
+    <attr name="AccentPrimaryColor" format="color"/>
+    <attr name="TextPrimaryColor" format="color"/>
+    <attr name="SecondaryTextColor" format="color"/>
+    <attr name="DividerPrimaryColor" format="color"/>
+    <!-- elevation                           -->
+    <attr name="ElevationOfMaterial" format="dimension"/>
+    <attr name="ElevationOfMaterialPress" format="dimension"/>
+    <attr name="ElevationOfButton" format="dimension"/>
+    <attr name="ElevationOfButtonPress" format="dimension"/>
+    <attr name="ElevationOfBottomBar" format="dimension"/>
+    <attr name="ElevationOfTopBar" format="dimension"/>
+    <attr name="ElevationOfNavigation" format="dimension"/>
+    <attr name="ElevationOfDialog" format="dimension"/>
+    <attr name="ElevationOfEume" format="dimension"/>
+
+    <!-- 自定义颜色  -->
+    <attr name="colorEndLayer" format="color"/>
+
+</resources>
